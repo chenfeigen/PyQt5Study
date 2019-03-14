@@ -1,0 +1,2 @@
+1.SignalAndSlot:点击button发送close信号关闭From
+2.SignalAndSlot2:通过checkBox控制Label和LineEdit的显示
