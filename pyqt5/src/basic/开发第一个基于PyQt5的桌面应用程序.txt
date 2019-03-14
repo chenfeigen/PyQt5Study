@@ -1,0 +1,14 @@
+开发第一个基于PyQt5的桌面应用
+
+必须使用两个类:QApplication和QWidget.都在PyQt5.QtWidgets.
+通过拓展工具在pycharm中启动QtDiseginer.exe
+1.file->Settings->Tools->External Tools,找到QT安装包下的Diseginer.exe或者是anaconda安装包下的Diseginer.exe配置即可
+将.ui文件转换成.py文件
+    方法一：直接使用命令行
+    python -m PyQt5.uic.pyuic pyqt5_01.ui -o pyqt5_01_ui.py
+    方法二：直接使用命令
+    先进到C:\python\pkgs\pyqt-5.9.2-py37h6538335_2\Library\bin里面然后执行
+    pyuic5 在anaconda的pkg里面
+    pyuic5 pyqt5_01.ui -o pyqt5_01_ui.py
+    方法三：
+    -m PyQt5.uic.pyuic $FileName$ -o $FileNameWithoutExtens$.py
